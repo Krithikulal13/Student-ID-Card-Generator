@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student ID Card Generator</title>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<div class="main">
+  
+  <div class="container">
+    <h2 style="color: white; text-align: center;">Student ID Generator</h2>
+    <form action="">
+      <label>Name:</label>
+    <input type="text" id="name">
+
+    <label>USN:</label>
+    <input type="text" id="usn">
+
+    <label>Branch:</label>
+    <input type="text" id="branch">
+
+    <label>Date of Birth:</label>
+    <input type="date" id="dob">
+
+    <label>Admission Date:</label>
+    <input type="date" id="admission">
+
+    <label>Valid Till:</label>
+    <input type="date" id="valid">
+
+    <label>Photo:</label>
+    <input type="file" id="photo" accept="image/*">
+
+    <button type="button" onclick="generateID()">Generate ID</button>
+    <button type="button" onclick="downloadHandler()">Download ID Card</button>
+    </form>
+  </div>
+
+ <div class="id-card" id="idCard">
+    <div class="card-header">
+      <h3>Shri Madhwa Vadiraja Institute of Technology and Management Bantakal.</h3>
+    </div>
+    <img id="cardPhoto" class="photo" src="" alt="Student Photo">
+    <div class="id-details">
+      <p><pre>  <b>Name:</b><span id="cardName"></span></pre></p>
+      <p><pre>  <b>USN:</b><span id="cardUsn"></span></pre></p>
+      <p><pre>  <b>Branch:</b><span id="cardBranch"></span></pre></p>
+      <p><pre>  <b>Date of Birth:</b><span id="cardDob"></span></pre></p>
+      <p><pre>  <b>Admission Date:</b><span id="cardAdmission"></span></pre> </p>
+      <p><pre>  <b>Valid Till:</b><span id="cardValid"></span></pre></p>
+    </div>
+    <div class="barcode">
+      <img id="barcodeImg" src="https://api.qrserver.com/v1/create-qr-code/?size=200x50&data=IDCARD" alt="Barcode">
+    </div>
+  </div>
+</div> 
+<script src="./script.js"></script>
+
+</body>
+</html>
