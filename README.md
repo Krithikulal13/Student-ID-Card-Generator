@@ -21,5 +21,7 @@ A simple and interactive **Student ID Card Generator** built with **HTML**, **CS
 - **CSS3**  
 - **JavaScript**
 
+---
+  
 ## 📸 Preview
 ![output Image](https://github.com/Krithikulal13/Student-ID-Card-Generator/blob/main/Output%20Image%20.png)
