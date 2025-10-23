@@ -3,7 +3,6 @@
 A simple and interactive **Student ID Card Generator** built with **HTML**, **CSS**, and **JavaScript**. This project allows users to input student details, upload a photo, and automatically generate a digital ID card that can be downloaded as a **PDF**.
 
 ---
-
 ## 🚀 Features
 
 - 🧍‍♀️Input fields for student details (Name, USN, Branch, DOB, etc.)  
