@@ -4,7 +4,6 @@ A simple and interactive **Student ID Card Generator** built with **HTML**, **CS
 
 ---
 ## 🚀 Features
-
 - 🧍‍♀️Input fields for student details (Name, USN, Branch, DOB, etc.)  
 - 📸 Upload and preview student photo  
 - 🪪 Auto-generated ID card layout  
