@@ -11,7 +11,6 @@ A simple and interactive **Student ID Card Generator** built with **HTML**, **CS
 - 💾 Download the generated ID card as a PDF
 - 🎨 Responsive and clean UI with CSS styling  
 ---
-
 ## 🛠️ Technologies Used
 
 - **HTML5**  
